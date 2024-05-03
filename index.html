@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Benoit Tseh Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Custom CSS for image */
+    .profile-image {
+      border: 2px solid #fff; /* Change border color if needed */
+      border-radius: 50%; /* Makes the image round */
+      overflow: hidden; /* Ensures the image stays within the border */
+    }
+
+
+    /* Custom CSS */
+    /* Center align the heading */
+    .section-heading {
+      text-align: center;
+    }
+
+
+
+    .lead {
+      text-align: justify;
+    }
+
+    /* Equal width for all project cards */
+    .project-card {
+      width: 350px;
+      margin: 10px;
+    }
+
+   
+    /* Responsive styling */
+    @media (max-width: 767px) {
+      .project-card {
+        width: 100%;
+      }
+    }
+
+
+
+
+
+        /* Custom CSS */
+    /* Center align the section heading */
+    .section-heading {
+      text-align: center;
+    }
+
+    /* Equal width for all skill cards */
+    
+    .skill-card {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+  
+ 
+     
+  
+    
+    
+
+
+    /* Responsive styling */
+    @media (max-width: 767px) {
+      .skill-card {
+        width: 100%;
+      }
+    }
+
+
+
+
+      /* Custom CSS */
+    /* Center align the section heading */
+    .section-heading {
+      text-align: center;
+      color: #fff; /* White text color */
+    }
+
+    /* Main contact information */
+    .contact-info {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+    }
+
+    /* Social media icons */
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    /* Circular button for social media icons */
+    .social-icon {
+      background-color: blue;  /* #ff4081;*/ /* Pink background color */
+      border-radius: 50%; /* Make it circular */
+      width: 50px; /* Set fixed width */
+      height: 50px; /* Set fixed height */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px; /* Add margin between icons */
+      transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    }
+
+    /* Tooltip */
+    .social-icon:hover::after {
+      content: attr(data-tooltip); /* Display the platform name as tooltip */
+      position: absolute;
+      background-color: #000; /* Black background color for tooltip */
+      color: #fff; /* White text color for tooltip */
+      padding: 5px;
+      border-radius: 5px;
+      bottom: 100%; /* Position above the icon */
+      left: 50%; /* Center horizontally */
+      transform: translateX(-50%); /* Center horizontally */
+      opacity: 0; /* Initially hidden */
+      transition: opacity 0.3s ease; /* Smooth transition for hover effect */
+    }
+
+    .social-icon:hover::after {
+      opacity: 1; /* Show the tooltip on hover */
+    }
+
+    /* Responsive styling */
+    @media (max-width: 767px) {
+      .contact-info, .social-icons {
+        flex-direction: column; /* Stack vertically on smaller screens */
+        text-align: center; /* Center align on smaller screens */
+      }
+    }
+    
+
+    /* Custom CSS for sticky navigation bar */
+    body {
+      padding-top: 70px; /* Adjust body padding to accommodate fixed navbar */
+    }
+
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #343a40; /* Dark background color */
+      z-index: 1000; /* Ensure the navbar appears above other content */
+    }
+
+    .navbar .navbar-nav .nav-link {
+      color: #fff; /* White text color */
+  
+    }
+  </style>
+</head>
+
+
+
+ <Body>
+
+<!-- About Section -->
+<section id="about" class="py-5" style="background-color: darkblue; color:  #fff;
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    ">
+  <div class="container text-center">
+    <h2 class="display-4 mb-4">About</h2> <!-- Large centered headline -->
+    <div class="row justify-content-center align-items-center mb-4">
+      <div class="col-md-6">
+        <!-- Circular image placeholder -->
+        <div class="profile-image mx-auto mb-3" style="width: 200px; height: 200px;">
+          <img src="images/about/about.jpg" class="img-fluid" alt="Profile Picture">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8 mx-auto">
+        <!-- Paragraphs of text -->
+        <p class="lead" > I am a state engineer student majoring in computer engineering with a specialization in Big Data and
+             Cloud Computing. My current educatio revolves around fundamental computer science, with a strong emphasis on data
+              science, software engineering, and distributed computing.
+              I have a deep passion for new technologies and aspire to build a successful career in this field.
+             I have completed a foundational training in Mathematics, Physics, and Computer Science before continuing into a
+              Computer Engineering program, which allowed me to develop a broad and deep scientific background
+              I am always eager to hone my skills and acquire knowledge in this domain, which promises new revolutions in the future.
+               My slogan reflects my belief: 'Today's data is gold, tomorrow's diamond.</p>
+        <p class="lead"></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Projects Section -->
+<section id="projects" class="py-5" style="  background-color: #343a40; 
+     margin-top: 50px;">
+    <div class="container">
+      <h2 class="section-heading mb-4" >Projects</h2> <!-- Centered heading -->
+      <div class="row justify-content-center">
+
+        <!-- Project 1 Card -->
+        <div class="col-md-4">
+          <div class="card text-center project-card">
+            <img src="images/projects/tetris.png" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Tetris Gaming</h5> <!-- Project title -->
+              <p class="card-text">The Tretis project is an educational video game project that applies knowledge 
+                of data structures, particularly linked lists, in C++ with an object-oriented paradigm.The game has
+                 been developed in console mode and features a graphical interface using the SDL library in C.</p> <!-- Brief description -->
+                <!-- <a href="#" class="btn btn-primary">Blog Post</a> -->
+              <a href="#" class="btn btn-primary">Source Code</a> <!-- Source Code link -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 Card -->
+        <div class="col-md-4">
+          <div class="card text-center project-card">
+            <img src="images/projects/snopy.png" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title"> Snopy Gaming</h5>
+              <p class="card-text">The Snopy video game project is another video game project developed solely in 
+                graphical interface mode using the C language. It features the main character Snopy, who attempts to
+                 rescue hostages in real-time while also facing obstacles throughout the journey.</p>
+               <!-- <a href="#" class="btn btn-primary">Blog Post</a> -->
+              <a href="https://github.com/Believer2001/snoopy.git" class="btn btn-primary">Source Code</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 Card -->
+        <div class="col-md-4">
+          <div class="card  text-center project-card">
+            <img src="images/projects/gestionscolarite.png" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">Project 3</h5>
+              <p class="card-text" >The school management project is an academic project that allows for the management
+                 of a school for better satisfaction. The website enables registration and tracking of various activities
+                  of the establishment, including enrollment, courses, and student evaluations, which are stored in a database.
+                   This project highlights frontend skills and provides an understanding of backend functionality, including SQL
+                    queries and PHP.
+              </p>
+              <!-- <a href="#" class="btn btn-primary">Blog Post</a> -->
+              <a href="#" class="btn btn-primary">Source Code</a>
+            </div>
+          </div>
+        </div>
+
+         <!-- Project 4 Card -->
+         <div class="col-md-4">
+          <div class="card text-center project-card">
+            <img src="images/projects/HousingPrice2.png" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title"> Houes Price Prediction In california</h5>
+              <p class="card-text">This project is a capstone project aimed at applying various data analysis techniques and machine
+                 learning algorithms, such as linear regression and random forests, to analyze data and evaluate their performance.</p>
+             <!-- <a href="#" class="btn btn-primary">Blog Post</a> -->
+              <a href="https://github.com/Believer2001/HousiPricesPrediction/blob/main/HousingPrices.ipynb" class="btn btn-primary">Source Code</a>
+            </div>
+          </div>
+        </div>
+  
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+  
+<!-- Skills Section -->
+<section id="skills" class="py-5"   style="background-color: darkblue; margin-top: 50px;">
+    <div class="container">
+      <h2 class="section-heading mb-4">Skills</h2> <!-- Centered section heading -->
+      <div class="row justify-content-center">
+
+        <!-- Skill 1 Card -->
+        <div class="col-md-3">
+          <div class="card text-center skill-card">
+            <img src="images/skills/python.png" class="card-img-top" alt="Skill 1">
+            <div class="card-body">
+              <h5 class="card-title">Python</h5> <!-- Skill title -->
+              <p class="card-text">
+                I successfully completed a certification course
+                in Python, specialized in data analysis, on the IBM Skills platform. 
+                Subsequently,I had the opportunity to acquire skills through personal
+                projects that I completed..</p> <!-- Skill description -->
+              <a href="https://apps.cognitiveclass.ai/learning/course/course-v1:CognitiveClass+PY0101EN+v3/block-v1:CognitiveClass+PY0101EN+v3+type@sequential+block@ebbc47f15cfc41d5a462090c4c88d895/block-v1:CognitiveClass+PY0101EN+v3+type@vertical+block@2c5eb4d37cca48c4994e93d00bfb847a" class="btn btn-primary">Link to course or bootcamp</a> <!-- Link to course or bootcamp -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Skill 2 Card -->
+        <div class="col-md-3">
+          <div class="card text-center skill-card">
+            <img src="images/skills/datavisualation.png" class="card-img-top" alt="Skill 2">
+            <div class="card-body">
+              <h5 class="card-title">Data Visualization</h5>
+              <p class="card-text">I successfully completed a certification course in data visualization
+                 with Matplotlib in Python on the IBM Skills platform. It was an opportunity for me to learn 
+                 various types of graphs, their interpretation, and to derive a summary of the dataset from the graphs.</p>
+              <a href="https://apps.cognitiveclass.ai/learning/course/course-v1:CognitiveClass+DV0101EN+v2/block-v1:CognitiveClass+DV0101EN+v2+type@sequential+block@ebbc47f15cfc41d5a462090c4c88d895/block-v1:CognitiveClass+DV0101EN+v2+type@vertical+block@47d19f5f36014e89a4f54e1559f895dd" class="btn btn-primary">Link to course or bootcamp</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skill 3 Card -->
+        <div class="col-md-3">
+          <div class="card text-center skill-card">
+            <img src="images/skills/sql.png" class="card-img-top" alt="Skill 3">
+            <div class="card-body">
+              <h5 class="card-title">SQL</h5>
+              <p class="card-text">I have developed SQL skills through projects involving website development where
+                 I had to formulate queries to manage academic data.</p>
+              <a href="https://www.coursera.org/learn/intro-sql/home/week/1" class="btn btn-primary">Link to course or bootcamp</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skill 4 Card -->
+        <div class="col-md-3">
+          <div class="card text-center skill-card">
+            <img src="images/skills/LangageR.png" class="card-img-top" alt="Skill 4">
+            <div class="card-body">
+              <h5 class="card-title">Data analysis and Visualization with R Language</h5>
+              <p class="card-text">I have a basic understanding of the R programming language, which enables me to perform
+                 statistical tests and visualize data. This knowledge was acquired through a certified training course I 
+                 completed on the IBM Cognitive Class platform.</p>
+              <a href="https://apps.cognitiveclass.ai/learning/course/course-v1:CognitiveClass+RP0101EN+v1/block-v1:CognitiveClass+RP0101EN+v1+type@sequential+block@6ee01c51baad4aa7a369abfd06daed7b/block-v1:CognitiveClass+RP0101EN+v1+type@vertical+block@47d19f5f36014e89a4f54e1559f895dd" 
+              class="btn btn-primary">Link to course or bootcamp</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skill 5 Card -->
+        <div class="col-md-3">
+          <div class="card text-center skill-card" style="margin-top: 20px;">
+            <img src="images/skills/dataAnalysis.jpeg" class="card-img-top" alt="Skill 4">
+            <div class="card-body">
+              <h5 class="card-title">Data analysis with python</h5>
+              <p class="card-text">I completed a comprehensive data analysis course on the IBM Skills platform, covering 
+                key aspects of data analysis. This enabled me to effectively clean and explore data for analysis purposes.
+                 Following the analysis phase, we delved into performing fitting tests.</p>
+              <a href="https://apps.cognitiveclass.ai/learning/course/course-v1:CognitiveClass+DA0101EN+v2/block-v1:CognitiveClass+DA0101EN+v2+type@sequential+block@5a269aace1404f1c89828a29d66a5507/block-v1:CognitiveClass+DA0101EN+v2+type@vertical+block@f6240b6221c04ebc9a4ee010d8d22e21" 
+              class="btn btn-primary">Link to course or bootcamp</a>
+            </div>
+          </div>
+        </div>
+         <!-- Skill 6 Card -->
+         <div class="col-md-3">
+          <div class="card text-center skill-card"  style="margin-top: 20px;">
+            <img src="images/skills/c++.jpg" class="card-img-top" alt="Skill 4">
+            <div class="card-body">
+              <h5 class="card-title"> Oriented object Programming with C++</h5>
+              <p class="card-text">I have developed object-oriented programming skills in C++ through various school projects, 
+                including the Tetris game.</p>
+              <a href="https://www.coursera.org/learn/programmation-orientee-objet-cpp/home/week/1" class="btn btn-primary">Link to course or bootcamp</a>
+            </div>
+          </div>
+        </div>
+         <!-- Skill 7 Card -->
+         <div class="col-md-3 ">
+          <div class="card text-center skill-card"  style="margin-top: 20px;">
+            <img src="images/skills/UML.jpeg " class="card-img-top" alt="Skill 4" >
+            <div class="card-body">
+              <h5 class="card-title"> Oriented object design</h5>
+              <p class="card-text">I have developed skills in object-oriented design with UML through various school projects.</p>
+              <a href="https://www.coursera.org/learn/object-oriented-design/home/week/1" class="btn btn-primary">Link to course or bootcamp</a>
+            </div>
+          </div>
+        </div>
+ <!-- Skill  8 Card -->
+ <div class="col-md-3" >
+  <div class="card text-center skill-card"  style="margin-top: 20px;">
+    <img src="images/skills/teamworking.jpeg" class="card-img-top" alt="Skill 4">
+    <div class="card-body">
+      <h5 class="card-title">teamworking</h5>
+      <p class="card-text">Through several school projects, I have developed systematic teamwork skills.</p>
+      <a href="#" class="btn btn-primary">Link to course or bootcamp</a>
+    </div>
+  </div>
+</div>
+
+      </div>
+    </div>
+  </section>
+  
+
+
+
+
+
+  <!-- Contact Me Section -->
+<section id="contact" class="py-5" style="background-color: #000;margin-top: 50px;" >
+  <div class="container">
+      <h2 class="section-heading mb-4" style="color: #fff;">Contact Me</h2> <!-- Centered section heading -->
+
+      <!-- Main contact information -->
+      <div class="contact-info">
+          <!-- Email -->
+          <div class="me-4">
+              <img src="https://img.icons8.com/ios-glyphs/30/ffffff/new-post--v1.png" alt="Email Icon">
+              <a href="mailto:tsehbenoit2001@gmail.com" style="color: #fff; text-decoration: none;">tsehbenoit2001@gmail.com</a>
+          </div>
+          <!-- Phone number -->
+          <div>
+              <img src="https://img.icons8.com/ios-glyphs/30/ffffff/phone.png" alt="Phone Icon">
+              <span style="color: #fff;">+212619840706</span>
+          </div>
+      </div>
+
+      <!-- Social media icons -->
+      <div class="social-icons mt-4">
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" class="social-icon" data-tooltip="LinkedIn" target="_blank">
+              <img src="https://img.icons8.com/ios/50/ffffff/linkedin-circled--v2.png" alt="LinkedIn Icon">
+          </a>
+          <!-- Twitter -->
+          <a href="https://twitter.com/BTseh14810" class="social-icon" data-tooltip="Twitter">
+              <img src="https://img.icons8.com/ios/50/ffffff/twitter.png" alt="Twitter Icon">
+          </a>
+          <!-- GitHub -->
+          <a href="https://github.com/Believer2001" class="social-icon" data-tooltip="GitHub" target="_blank" >
+              <img src="https://img.icons8.com/ios/50/ffffff/github--v1.png" alt="GitHub Icon">
+          </a>
+         
+      </div>
+  </div>
+</section>
+
+  
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#" > Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a> <!-- Link to the top of the page -->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a> <!-- Link to the About section -->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a> <!-- Link to the Projects section -->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a> <!-- Link to the Skills section -->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a> <!-- Link to the Contact section -->
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+<!-- Bootstrap JS (optional) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

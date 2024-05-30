@@ -9,19 +9,63 @@
   <style>
 
 
+#about {
+  background-color: rgb(122, 122, 121);
+  color: #fff;
+  padding: 20px; /* Ajout d'un padding pour espacer le contenu des bords */
+  text-align: center; /* Centrage du texte */
+}
+
+/* CSS personnalisé pour l'image */
+.profile-image {
+  border: 2px solid #fff; /* Couleur de bordure */
+  border-radius: 50%; /* Rend l'image ronde */
+  overflow: hidden; /* Assure que l'image reste à l'intérieur de la bordure */
+  width: 150px; /* Largeur par défaut de l'image */
+  height: 150px; /* Hauteur par défaut de l'image */
+}
+
+/* Ajustements pour les petits écrans */
+@media (max-width: 767px) {
+  #about {
+    padding: 10px; /* Réduction du padding pour économiser de l'espace */
+    font-size: 14px; /* Réduction de la taille de la police */
+  }
+  
+  .profile-image {
+    border-radius: 25%; /* Ajustement du rayon de bordure */
+    width: 80%; /* Ajustement de la largeur pour les petits écrans */
+    height: auto; /* Maintien des proportions de l'image */
+    max-width: 300px; /* Largeur maximale de l'image */
+  }
+}
 
 
+
+
+
+/*
   #about{
     background-color:rgb(122, 122, 121);
     color:  #fff;
     
   }
-    /* Custom CSS for image */
+    /* Custom CSS for image 
     .profile-image {
-      border: 2px solid #fff; /* Change border color if needed */
-      border-radius: 50%; /* Makes the image round */
-      overflow: hidden; /* Ensures the image stays within the border */
+      border: 2px solid #fff; /* Change border color if needed 
+      border-radius: 50%; /* Makes the image round 
+      overflow: hidden; /* Ensures the image stays within the border 
     }
+
+    @media (max-width: 767px) 
+    {
+      .profile-image{
+        border-radius: 25%;
+        width: 100%;
+      }
+    }
+    */
+
 
 
     /* Custom CSS */
@@ -532,12 +576,13 @@
         </div>
 
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+          <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
+          <span class="visually-hidden" >Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="visually-hidden" style="color:black">Next</span>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next" >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+          <span class="visually-hidden" >Next</span>
         </button>
       </div>
     </div>

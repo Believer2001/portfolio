@@ -7,9 +7,7 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
-
-
-#about {
+  #about {
   background-color: rgb(122, 122, 121);
   color: #fff;
   padding: 20px; /* Ajout d'un padding pour espacer le contenu des bords */
@@ -33,13 +31,21 @@
   }
   
   .profile-image {
-    border-radius: 25%; /* Ajustement du rayon de bordure */
-    width: 80%; /* Ajustement de la largeur pour les petits écrans */
-    height: auto; /* Maintien des proportions de l'image */
-    max-width: 300px; /* Largeur maximale de l'image */
+    border-radius: 50%; /* Maintient une forme ovale */
+    width: 60%; /* Ajustement de la largeur pour les petits écrans */
+    height: 80%; /* Ajustement de la hauteur pour les petits écrans pour garder l'ovale */
+    max-width: 200px; /* Largeur maximale de l'image */
+    max-height: 250px; /* Hauteur maximale de l'image */
+  }
+  
+  /* Ajustements supplémentaires pour maintenir la forme ovale */
+  .profile-image img {
+    width: 100%; /* L'image prend toute la largeur du conteneur */
+    height: 100%; /* L'image prend toute la hauteur du conteneur */
+    object-fit: cover; /* Couvre tout l'espace disponible tout en gardant les proportions */
+    border-radius: 50%; /* Assure que l'image reste ovale */
   }
 }
-
 
 
 

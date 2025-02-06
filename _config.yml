@@ -1,9 +1,10 @@
 # Configuration de base
 title : Tseh Kokou Benoit
-description: Portfolio of Tseh Kokou Benoit
+logo : /assets/img/benoit.svg
+description: Big Data Cloud Computing
 shows_downloads: true
 url: "https://Believer2001.github.io/DataPortfolio" # 
-baseurl: "" # Laisser vide si tu n'as pas de sous-répertoire
+#baseurl: "" # Laisser vide si tu n'as pas de sous-répertoire
 email: "tsehbenoit2001@gmail.com" 
 github_username: "Believer2001" # 
 linkedin_username: "Tseh Kokou Benoit" 
@@ -11,7 +12,6 @@ linkedin_username: "Tseh Kokou Benoit"
 
 
 # configuration logo
-logo : /assets/img/benoit.svg
 #favicon : / icone du chemin
 
 #theme principale 

@@ -11,8 +11,8 @@ I am an engineering student in computer engineering, Big Data, and Cloud Computi
 - **Databases** : MySqL, NoSQL (Cassandra, MongoDB,Redis)
 - **Backend Technologies** : NodeJs, Flask, REST API
 - **Virtualization** : Docker, Kubernetes, Vsphere
-- **AI** : Scikt-learn, tensorflow.
-- **Others** : git, UML, Linux, Networking
+- **AI** : Scikt-learn, Tensorflow.
+- **Others** : Git, UML, Linux, Networking
 - **Oracle Cloud Fondations Associate**
 
 ## Projects

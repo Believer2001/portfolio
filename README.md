@@ -1,3 +1,3 @@
-# Data engineer, Data scientic, Data Analyst, software Engineer
+# Data Engineer, Data Scientic, Data Analyst
 
 ## education 

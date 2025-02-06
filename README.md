@@ -6,9 +6,10 @@ I am an engineering student in computer engineering, Big Data, and Cloud Computi
 - State Engineering., Computer Engineering, Big Data Cloud Computing | ENSET Mohammedia , University Hassan 2
   ( september 2023- July 2026)
 - DEUST., Mathematics Physics and Computer Science | FST Settat, University Hassan 1 (October 2021 - july 2023)
-## Technical Skills
+
+### Technical Skills
 - **Programming languages** : C, C++, Python, Java, Javascript, SQL, Bash
-- **Databases** : MySqL, NoSQL (Cassandra, MongoDB,Redis)
+- **Databases** : MySQL, NoSQL (Cassandra, MongoDB,Redis)
 - **Backend Technologies** : NodeJs, Flask, REST API
 - **Virtualization** : Docker, Kubernetes, Vsphere
 - **AI** : Scikt-learn, Tensorflow.

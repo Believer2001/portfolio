@@ -1,5 +1,31 @@
+# Configuration de base
 title : Tseh Kokou Benoit
+description: Portfolio of Tseh Kokou Benoit
+shows_downloads: true
+url: "https://Believer2001.github.io/DataPortfolio" # 
+baseurl: "" # Laisser vide si tu n'as pas de sous-répertoire
+email: "tsehbenoit2001@gmail.com" 
+github_username: "Believer2001" # 
+linkedin_username: "Tseh Kokou Benoit" 
+#resume_url: ".pdf" # 
+
+
+# configuration logo
 logo : /assets/img/benoit.svg
-#description: text en bas de l image
-#shows_downloads: True
+#favicon : / icone du chemin
+
+#theme principale 
+
 theme: jekyll-theme-minimal
+
+
+# Footer du site (information à afficher dans le bas de la page)
+footer:
+  text: "© 2025  Tseh Kokou Benoit. Tous droits réservés." # Le texte du pied de page
+  
+# Configuration du réseau social (si tu veux ajouter des liens vers tes réseaux)
+social:
+  - icon: "fab fa-github" 
+    url: "https://github.com/Believer2001" 
+  - icon: "fab fa-linkedin" 
+    url: "hwww.linkedin.com/in/kokou-benoît-tseh-a07491247" 

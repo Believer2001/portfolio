@@ -11,21 +11,8 @@ linkedin_username: "Tseh Kokou Benoit"
 #resume_url: ".pdf" # 
 
 
-# configuration logo
-#favicon : / icone du chemin
 
 #theme principale 
 
 theme: jekyll-theme-minimal
 
-
-# Footer du site (information à afficher dans le bas de la page)
-footer:
-  text: "© 2025  Tseh Kokou Benoit. Tous droits réservés." # Le texte du pied de page
-  
-# Configuration du réseau social (si tu veux ajouter des liens vers tes réseaux)
-social:
-  - icon: "fab fa-github" 
-    url: "https://github.com/Believer2001" 
-  - icon: "fab fa-linkedin" 
-    url: "hwww.linkedin.com/in/kokou-benoît-tseh-a07491247" 

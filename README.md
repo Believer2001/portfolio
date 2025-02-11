@@ -1,7 +1,7 @@
 # Data Engineer & ML Engineer
 
 ## About
-I am an engineering student in computer engineering, Big Data, and Cloud Computing at ENSET Mohammedia, and my training covers areas such as software engineering, distributed systems, DevOps, Cloud Computing, artificial intelligence, and data engineering.
+I am an engineering student in computer engineering, Big Data, and Cloud Computing at ENSET Mohammedia, and my training covers areas such as Software Engineering, Distributed systems, DevOps, Cloud Computing, Artificial Intelligence, and Data Engineering.
 ## Education
 - State Engineering., Computer Engineering, Big Data Cloud Computing | ENSET Mohammedia , University Hassan 2
   ( september 2023- July 2026)
@@ -37,7 +37,7 @@ This project is   a create of  small API to serve as the backend for an online l
 
 **Description**
 
-This project aims to address the challenges of efficient network connection management, particularly Wi-Fi, on Unix/Linux systems. The script provides a user-friendly interface to list available networks, connect to a specific network, and save/restore network configurations. It also enhances security by prompting for passwords when connecting to secure networks it ensures system reliability and robustness by effectively managing errors and exceptions in various usage scenarios.
+This project aims to address the challenges of efficient network connection management, particularly Wi-Fi, on Unix/Linux systems. The script provides a user-friendly interface to list available networks, connect to a specific Network, and save/restore network configurations. It also enhances security by prompting for passwords when connecting to secure networks it ensures system reliability and robustness by effectively managing errors and exceptions in various usage scenarios.
 
 **Skill**
 - Web Scrapping with (Beautifulsoup, Selenium)

@@ -33,7 +33,7 @@ This project is   a create of  small API to serve as the backend for an online l
 - Bakend  management (NodeJS ,express and Javascript)
   
 
-### Bash Scriting for WIFI Management
+### [Bash Scriting for WIFI Management]()
 
 **Description**
 
@@ -47,6 +47,7 @@ This project aims to address the challenges of efficient network connection mana
 ### [School Management System](https://github.com/Believer2001/Gestion_De_Scolarit)
 
 ![School management System](./assets/img/gestionscolarite.png)
+
 **Description**
 
 The school management System project is an academic project that allows for the management of a school for better satisfaction. The System enables registration and tracking of various activities of the establishment, including enrollment, courses, and student evaluations, which are stored in a database. This project highlights frontend skills and provides an understanding of backend functionality, including SQL queries and PHP. 
@@ -63,6 +64,7 @@ The school management System project is an academic project that allows for the 
 ![Tetris Gaming Interface](./assets/img/tetris.png)
 
 **Description**
+
 The Tretis project is an educational video game project that applies knowledge of data structures, particularly linked lists, in C++ with an object-oriented paradigm.The game has been developed in console mode and features a graphical interface using the SDL library in C.
 
 **Skills**
@@ -76,8 +78,11 @@ The Tretis project is an educational video game project that applies knowledge o
 ![snopy interface ](./assets/img/snopy.png)
 
 **Description**
+
 The Snopy video game project is video game project developed solely in Command Line interface mode using the C language. It features the main character Snopy, who attempts to rescue hostages in real-time while also facing obstacles throughout the journey
+
 **Skills**
+
 - Advanced C  programing and Best Patices
 - Algorithmiic 
 

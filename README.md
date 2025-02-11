@@ -17,4 +17,64 @@ I am an engineering student in computer engineering, Big Data, and Cloud Computi
 - **Oracle Cloud Fondations Associate**
 
 ## Projects
+### EduChatBot
+
+**Description**
+**Skill**
+### Learning-platform-nosql
+**Description**
+This project is   a create of  small API to serve as the backend for an online learning platform. We are using the Node.js framework for the backend with the Express library. Our backend application will handle communication with a MongoDB database to provide responses to requests. To improve the speed and fluidity of the application, we've implemented a caching mechanism managed by Redis.
+
+**Skill**
+- MongoDB and redis
+- Cache Management
+- Bakend  management (NodeJS ,express and Javascript)
+  
+
+### Bash Scriting for WIFI Management
+
+**Description**
+
+This project aims to address the challenges of efficient network connection management, particularly Wi-Fi, on Unix/Linux systems. The script provides a user-friendly interface to list available networks, connect to a specific network, and save/restore network configurations. It also enhances security by prompting for passwords when connecting to secure networks it ensures system reliability and robustness by effectively managing errors and exceptions in various usage scenarios.
+
+**Skill**
+- Web Scrapping with (Beautifulsoup, Selenium)
+- bash scipting
+- Linux command
+
+### School Management System
+
+**Description**
+
+The school management System project is an academic project that allows for the management of a school for better satisfaction. The System enables registration and tracking of various activities of the establishment, including enrollment, courses, and student evaluations, which are stored in a database. This project highlights frontend skills and provides an understanding of backend functionality, including SQL queries and PHP. 
+
+**Skills**
+
+- Relationnal Database Modeling (UML)
+- SQL query Language and MySQL RDMS
+- PHP for the backend.
+- Frontend basics technologies (HTML,CSS, Javascript, Bootstraap)
+  
+
+### Tetris Gaming
+
+**Description**
+
+The Tretis project is an educational video game project that applies knowledge of data structures, particularly linked lists, in C++ with an object-oriented paradigm.The game has been developed in console mode and features a graphical interface using the SDL library in C.
+
+**Skills**
+
+- Data Structure(Linked lists,queue,Stack,File)
+- C++ Programming
+- Object-oriented paradigm
+- SDL Library for the GUI
+
+###  Snopy gaming
+
+**Description**
+The Snopy video game project is video game project developed solely in Command Line interface mode using the C language. It features the main character Snopy, who attempts to rescue hostages in real-time while also facing obstacles throughout the journey
+**Skills**
+- Advanced C  programing and Best Patices
+- Algorithmiic 
+
 

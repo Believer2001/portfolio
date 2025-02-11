@@ -21,8 +21,10 @@ I am an engineering student in computer engineering, Big Data, and Cloud Computi
 
 **Description**
 **Skill**
-### Learning-platform-nosql
+### [Learning-platform-nosql](https://github.com/Believer2001/learning-platform-nosql)
+
 **Description**
+
 This project is   a create of  small API to serve as the backend for an online learning platform. We are using the Node.js framework for the backend with the Express library. Our backend application will handle communication with a MongoDB database to provide responses to requests. To improve the speed and fluidity of the application, we've implemented a caching mechanism managed by Redis.
 
 **Skill**
@@ -42,8 +44,9 @@ This project aims to address the challenges of efficient network connection mana
 - bash scipting
 - Linux command
 
-### School Management System
+### [School Management System](https://github.com/Believer2001/Gestion_De_Scolarit)
 
+![School management System](./assets/img/gestionscolarite.png)
 **Description**
 
 The school management System project is an academic project that allows for the management of a school for better satisfaction. The System enables registration and tracking of various activities of the establishment, including enrollment, courses, and student evaluations, which are stored in a database. This project highlights frontend skills and provides an understanding of backend functionality, including SQL queries and PHP. 
@@ -56,10 +59,10 @@ The school management System project is an academic project that allows for the 
 - Frontend basics technologies (HTML,CSS, Javascript, Bootstraap)
   
 
-### Tetris Gaming
+### [Tetris Gaming](https://github.com/Believer2001/Tetrise-Project)
+![Tetris Gaming Interface](./assets/img/tetris.png)
 
 **Description**
-
 The Tretis project is an educational video game project that applies knowledge of data structures, particularly linked lists, in C++ with an object-oriented paradigm.The game has been developed in console mode and features a graphical interface using the SDL library in C.
 
 **Skills**
@@ -69,7 +72,8 @@ The Tretis project is an educational video game project that applies knowledge o
 - Object-oriented paradigm
 - SDL Library for the GUI
 
-###  Snopy gaming
+###  [Snopy Gaming](https://github.com/Believer2001/snoopy)
+![snopy interface ](./assets/img/snopy.png)
 
 **Description**
 The Snopy video game project is video game project developed solely in Command Line interface mode using the C language. It features the main character Snopy, who attempts to rescue hostages in real-time while also facing obstacles throughout the journey

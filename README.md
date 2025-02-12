@@ -10,7 +10,7 @@ I am an engineering student in computer engineering, Big Data, and Cloud Computi
 ### Technical Skills
 - **Programming languages** : C, C++, Python, Java, Javascript, SQL, Bash
 - **Databases** : MySQL, NoSQL (Cassandra, MongoDB,Redis)
-- **Backend Technologies** : NodeJs, Flask, REST API
+- **Backend Technologies** : Node.js, Flask, REST API
 - **Virtualization** : Docker, Kubernetes, Vsphere
 - **AI** : Scikt-learn, Tensorflow.
 - **Others** : Git, UML, Linux, Networking
@@ -20,17 +20,19 @@ I am an engineering student in computer engineering, Big Data, and Cloud Computi
 ### EduChatBot
 
 **Description**
-**Skill**
+
+**Skills**
+
 ### [Learning-platform-nosql](https://github.com/Believer2001/learning-platform-nosql)
 
 **Description**
 
 This project is   a create of  small API to serve as the backend for an online learning platform. We are using the Node.js framework for the backend with the Express library. Our backend application will handle communication with a MongoDB database to provide responses to requests. To improve the speed and fluidity of the application, we've implemented a caching mechanism managed by Redis.
 
-**Skill**
-- MongoDB and redis
+**Skills**
+- MongoDB and Redis
 - Cache Management
-- Bakend  management (NodeJS ,express and Javascript)
+- Bakend  management (Node.js ,express and Javascript)
   
 
 ### [Bash Scriting : WIFI Management]()
@@ -39,7 +41,7 @@ This project is   a create of  small API to serve as the backend for an online l
 
 This project aims to address the challenges of efficient network connection management, particularly Wi-Fi, on Unix/Linux systems. The script provides a user-friendly interface to list available networks, connect to a specific Network, and save/restore network configurations. It also enhances security by prompting for passwords when connecting to secure networks it ensures system reliability and robustness by effectively managing errors and exceptions in various usage scenarios.
 
-**Skill**
+**Skills**
 - Web Scrapping with (Beautifulsoup, Selenium)
 - bash scipting
 - Linux command

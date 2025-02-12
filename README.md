@@ -40,7 +40,7 @@ This project is   a create of  small API to serve as the backend for an online l
 - Bakend  management (Node.js ,express and Javascript)
   
 
-### [Bash Scriting : WIFI Management](https://github.com/Believer2001/Bash_Script_WIFI_Management.git)
+### [*Bash Scriting : WIFI Management*](https://github.com/Believer2001/Bash_Script_WIFI_Management.git)
 
 **Description**
 

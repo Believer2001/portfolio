@@ -17,11 +17,16 @@ I am an engineering student in computer engineering, Big Data, and Cloud Computi
 - **Oracle Cloud Fondations Associate**
 
 ## Projects
-### EduChatBot
-
+### [EduChatBot](https://github.com/YoussoufHard/chatbotEdu.git)
 **Description**
+ChatbotEdu is an innovative educational application designed to provide relevant and contextualized answers to students at ENSET. This project uses a RAG architecture to combine a pre-trained model (Gemini) with enriched documentary data from the ENSET educational database. The application also supports multimodal features, allowing interactions through text, documents, and images.
 
 **Skills**
+- Frontend : JavaFX friendly GUI 
+- Backend (Flask or FastAPI): Interactions with the chatbot.
+- Database (MySQL/PostgreSQL): Ressources storage.
+- Search Engine (FAISS): Fast and accurate search for relevant documents.
+- Multimodal Engine (CLIP / Gemini Vision): Analysis and processing of image-based queries.
 
 ### [Learning-platform-nosql](https://github.com/Believer2001/learning-platform-nosql)
 
@@ -35,7 +40,7 @@ This project is   a create of  small API to serve as the backend for an online l
 - Bakend  management (Node.js ,express and Javascript)
   
 
-### [Bash Scriting : WIFI Management]()
+### [Bash Scriting : WIFI Management](https://github.com/Believer2001/Bash_Script_WIFI_Management.git)
 
 **Description**
 
@@ -76,7 +81,7 @@ The Tretis project is an educational video game project that applies knowledge o
 - Object-oriented paradigm
 - SDL Library for the GUI
 
-###  [Snopy Gaming](https://github.com/Believer2001/snoopy)
+###  [Snoopy Gaming](https://github.com/Believer2001/snoopy)
 ![snopy interface ](./assets/img/snopy.png)
 
 **Description**

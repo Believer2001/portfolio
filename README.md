@@ -17,7 +17,7 @@ I am an engineering student in computer engineering, Big Data, and Cloud Computi
 - **Oracle Cloud Fondations Associate**
 
 ## Projects
-### [EduChatBot](https://github.com/YoussoufHard/chatbotEdu.git)
+## [*EduChatBot*](https://github.com/YoussoufHard/chatbotEdu.git)
 **Description**
 ChatbotEdu is an innovative educational application designed to provide relevant and contextualized answers to students at ENSET. This project uses a RAG architecture to combine a pre-trained model (Gemini) with enriched documentary data from the ENSET educational database. The application also supports multimodal features, allowing interactions through text, documents, and images.
 
@@ -28,7 +28,7 @@ ChatbotEdu is an innovative educational application designed to provide relevant
 - Search Engine (FAISS): Fast and accurate search for relevant documents.
 - Multimodal Engine (CLIP / Gemini Vision): Analysis and processing of image-based queries.
 
-### [Learning-platform-nosql](https://github.com/Believer2001/learning-platform-nosql)
+## [*Learning-platform-nosql*](https://github.com/Believer2001/learning-platform-nosql)
 
 **Description**
 

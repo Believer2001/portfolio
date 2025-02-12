@@ -33,7 +33,7 @@ This project is   a create of  small API to serve as the backend for an online l
 - Bakend  management (NodeJS ,express and Javascript)
   
 
-### [Bash Scriting for WIFI Management]()
+### [Bash Scriting : WIFI Management]()
 
 **Description**
 
@@ -44,7 +44,7 @@ This project aims to address the challenges of efficient network connection mana
 - bash scipting
 - Linux command
 
-### [School Management System](https://github.com/Believer2001/Gestion_De_Scolarit)
+### [School Management System](https://github.com/Believer2001/SchoolmanagementSystem)
 
 ![School management System](./assets/img/gestionscolarite.png)
 

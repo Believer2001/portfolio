@@ -40,7 +40,7 @@ This project is   a create of  small API to serve as the backend for an online l
 - Bakend  management (Node.js ,express and Javascript)
   
 
-### [*Bash Scriting : WIFI Management*](https://github.com/Believer2001/Bash_Script_WIFI_Management.git)
+## [*Bash Scriting : WIFI Management*](https://github.com/Believer2001/Bash_Script_WIFI_Management.git)
 
 **Description**
 
@@ -51,7 +51,7 @@ This project aims to address the challenges of efficient network connection mana
 - bash scipting
 - Linux command
 
-### [School Management System](https://github.com/Believer2001/SchoolmanagementSystem)
+## [*School Management System*](https://github.com/Believer2001/SchoolmanagementSystem)
 
 ![School management System](./assets/img/gestionscolarite.png)
 
@@ -67,7 +67,7 @@ The school management System project is an academic project that allows for the 
 - Frontend basics technologies (HTML,CSS, Javascript, Bootstraap)
   
 
-### [Tetris Gaming](https://github.com/Believer2001/Tetrise-Project)
+## [*Tetris Gaming*](https://github.com/Believer2001/Tetrise-Project)
 ![Tetris Gaming Interface](./assets/img/tetris.png)
 
 **Description**
@@ -81,7 +81,7 @@ The Tretis project is an educational video game project that applies knowledge o
 - Object-oriented paradigm
 - SDL Library for the GUI
 
-###  [Snoopy Gaming](https://github.com/Believer2001/snoopy)
+##  [*Snoopy Gaming*](https://github.com/Believer2001/snoopy)
 ![snopy interface ](./assets/img/snopy.png)
 
 **Description**

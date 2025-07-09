@@ -1,14 +1,17 @@
 # Apprenti ingénieur en cybersécurité et sciences  des données à lʼENSIBS
 
 ## About
-. Dynamique, curieux et rigoureux, je poursuis un double diplôme en cybersécurité et sciences des données. Je suis à la recherche d’une alternance pour relever des défis concrets et contribuer à des projets innovants, tout en me perfectionnant continuellement.
+Dynamique, curieux et rigoureux, je poursuis un double diplôme en cybersécurité et sciences des données. Je suis à la recherche d’une alternance pour relever des défis concrets et contribuer à des projets innovants, tout en me perfectionnant continuellement.
 ## Education
-- Cybersécurité et Science de données  sous statut d'apprenti à l’ENSIBS  (Vannes- France)  |  Univerrsité Bretagne Sud , A partir de septembre 2025
+- Cybersécurité et Science de données  sous statut d'apprenti à l’ENSIBS  (Vannes- France)  |  Univerrsité Bretagne Sud
   - Cycle d'ingénieur - Programme de double diplomation ENSET-ENSIBS
-- Ingénierie Informatique Big Data Cloud Computing à l’ENSET Mohammedia (Maroc) | Université Hassan 2 , Depuis septembre 2023
+  - A partir de septembre 2025
+- Ingénierie Informatique Big Data Cloud Computing à l’ENSET Mohammedia (Maroc) | Université Hassan 2 
   - Cycle Ingénieur
-- Mathématiques Informatique Physique à la FST  Settat  (Maroc) | Université Hassan premier (octobre 2021 juillet 2023)
- - Diplôme Universitaire en Sciences et Techniques (DEUST)
+  - Depuis septembre 2023
+- Mathématiques Informatique Physique à la FST  Settat  (Maroc) | Université Hassan premier
+  - Diplôme Universitaire en Sciences et Techniques (DEUST)
+  - octobre 2021 juillet 2023
 
 ### Compétences Techniques
 - **Langage de Programation** : C, C++, Python, Java, Javascript, SQL, Bash
@@ -19,7 +22,7 @@
 - **Autres** : Git, UML, Linux, Réseaux
 - **Oracle Cloud Fondations Associate**
 
-## Projects
+## Projets Académiques
 ## [*EduChatBot*](https://github.com/YoussoufHard/chatbotEdu.git)
 **Description**
 ChatbotEdu is an innovative educational application designed to provide relevant and contextualized answers to students at ENSET. This project uses a RAG architecture to combine a pre-trained model (Gemini) with enriched documentary data from the ENSET educational database. The application also supports multimodal features, allowing interactions through text, documents, and images.

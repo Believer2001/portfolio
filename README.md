@@ -1,19 +1,22 @@
-# Data Engineer & ML Engineer
+# Apprenti ingénieur en cybersécurité et sciences  des données à lʼENSIBS
 
 ## About
-I am an engineering student in computer engineering, Big Data, and Cloud Computing at ENSET Mohammedia, and my training covers areas such as Software Engineering, Distributed systems, DevOps, Cloud Computing, Artificial Intelligence, and Data Engineering.
+. Dynamique, curieux et rigoureux, je poursuis un double diplôme en cybersécurité et sciences des données. Je suis à la recherche d’une alternance pour relever des défis concrets et contribuer à des projets innovants, tout en me perfectionnant continuellement.
 ## Education
-- State Engineering., Computer Engineering, Big Data Cloud Computing | ENSET Mohammedia , University Hassan 2
-  ( september 2023- July 2026)
-- DEUST., Mathematics Physics and Computer Science | FST Settat, University Hassan 1 (October 2021 - july 2023)
+- Cybersécurité et Science de données  sous statut d'apprenti à l’ENSIBS  (Vannes- France)  |  Univerrsité Bretagne Sud , A partir de septembre 2025
+  - Cycle d'ingénieur - Programme de double diplomation ENSET-ENSIBS
+- Ingénierie Informatique Big Data Cloud Computing à l’ENSET Mohammedia (Maroc) | Université Hassan 2 , Depuis septembre 2023
+  - Cycle Ingénieur
+- Mathématiques Informatique Physique à la FST  Settat  (Maroc) | Université Hassan premier (octobre 2021 juillet 2023)
+ - Diplôme Universitaire en Sciences et Techniques (DEUST)
 
-### Technical Skills
-- **Programming languages** : C, C++, Python, Java, Javascript, SQL, Bash
-- **Databases** : MySQL, NoSQL (Cassandra, MongoDB,Redis)
-- **Backend Technologies** : Node.js, Flask, REST API
-- **Virtualization** : Docker, Kubernetes, Vsphere
-- **AI** : Scikt-learn, Tensorflow.
-- **Others** : Git, UML, Linux, Networking
+### Compétences Techniques
+- **Langage de Programation** : C, C++, Python, Java, Javascript, SQL, Bash
+- **Bases de données** : MySQL, NoSQL (Cassandra, MongoDB,Redis)
+- **Technologie Back-end ** : Node.js, Flask, REST API
+- **Virtualisation** : Docker, Kubernetes, Vsphere
+- **AI** :  algorithmes de machine learning,Scikt-learn, Tensorflow.
+- **Autres** : Git, UML, Linux, Réseaux
 - **Oracle Cloud Fondations Associate**
 
 ## Projects

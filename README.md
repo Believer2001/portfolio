@@ -1,15 +1,18 @@
 # Apprenti ingénieur en cybersécurité et sciences  des données à lʼENSIBS
 
 ## About
+<div align="justify">
 Dynamique, curieux et rigoureux, je poursuis un double diplôme en cybersécurité et sciences des données. Je suis à la recherche d’une alternance pour relever des défis concrets et contribuer à des projets innovants, tout en me perfectionnant continuellement.
+</div>
+
 ## Education
-- Cybersécurité et Science de données  sous statut d'apprenti à l’ENSIBS  (Vannes- France)  |  Univerrsité Bretagne Sud
+- **Cybersécurité et Science de données  sous statut d'apprenti à l’ENSIBS  (Vannes- France)**  |  Univerrsité Bretagne Sud
   - Cycle d'ingénieur - Programme de double diplomation ENSET-ENSIBS
   - A partir de septembre 2025
-- Ingénierie Informatique Big Data Cloud Computing à l’ENSET Mohammedia (Maroc) | Université Hassan 2 
+- **Ingénierie Informatique Big Data Cloud Computing à l’ENSET  (Mohammedia- Maroc)** | Université Hassan 2 
   - Cycle Ingénieur
   - Depuis septembre 2023
-- Mathématiques Informatique Physique à la FST  Settat  (Maroc) | Université Hassan premier
+- **Mathématiques Informatique Physique à la FST    (Settat-Maroc)** | Université Hassan premier
   - Diplôme Universitaire en Sciences et Techniques (DEUST)
   - octobre 2021 juillet 2023
 
@@ -26,8 +29,11 @@ Dynamique, curieux et rigoureux, je poursuis un double diplôme en cybersécurit
   
 ## Projets Académiques
 ## [*EduChatBot*](https://github.com/YoussoufHard/chatbotEdu.git)
+
 **Description**
+<div align="justify">
 ChatbotEdu est une application éducative innovante conçue pour fournir des réponses pertinentes et contextualisées aux étudiants de l’ENSET. Ce projet s’appuie sur une architecture RAG (Retrieval-Augmented Generation), combinant un modèle pré-entraîné (Gemini) avec des données documentaires enrichies issues de la base de connaissances pédagogique de l’ENSET. L’application prend également en charge des fonctionnalités multimodales, permettant des interactions via texte, documents et images.
+</div>
 
 **Outils**
 - Frontend : JavaFX pour GUI 
@@ -40,8 +46,9 @@ ChatbotEdu est une application éducative innovante conçue pour fournir des ré
 ## [*Learning-platform-nosql*](https://github.com/Believer2001/learning-platform-nosql)
 
 **Description**
-
+<div align="justify">
 Ce projet consiste en la création d’une petite API destinée à servir de backend pour une plateforme d’apprentissage en ligne. Nous utilisons le framework Node.js pour le backend, avec la bibliothèque Express. Notre application backend gère la communication avec une base de données MongoDB afin de fournir des réponses aux requêtes. Pour améliorer la rapidité et la fluidité de l’application, nous avons mis en place un mécanisme de mise en cache géré par Redis.
+</div>
 
 **Outils**
 - MongoDB et Redis

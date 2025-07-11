@@ -15,88 +15,76 @@ Dynamique, curieux et rigoureux, je poursuis un double diplôme en cybersécurit
 
 ### Compétences Techniques
 - **Langage de Programation** : C, C++, Python, Java, Javascript, SQL, Bash
-- **Bases de données** : MySQL, NoSQL (Cassandra, MongoDB,Redis)
-- **Technologie Back-end ** : Node.js, Flask, REST API
+- **Bases de données Relationnelle** : MySQL, Access, Postgres
+- **Technologie Back-end** : Node.js, Flask, REST API,Springboot
 - **Virtualisation** : Docker, Kubernetes, Vsphere
 - **AI** :  algorithmes de machine learning,Scikt-learn, Tensorflow.
-- **Autres** : Git, UML, Linux, Réseaux
 - **Oracle Cloud Fondations Associate**
-
+- **Bases de données NoSQl**: MongoDB,Redis,Cassandra,Elastisearch,Hbase
+- **Big data** :  Hadoop(Map Reduce),Spark, Kafka, Flink,Hive,
+- **Autres** : Git, UML, Linux, Réseaux
+  
 ## Projets Académiques
 ## [*EduChatBot*](https://github.com/YoussoufHard/chatbotEdu.git)
 **Description**
-ChatbotEdu is an innovative educational application designed to provide relevant and contextualized answers to students at ENSET. This project uses a RAG architecture to combine a pre-trained model (Gemini) with enriched documentary data from the ENSET educational database. The application also supports multimodal features, allowing interactions through text, documents, and images.
+ChatbotEdu est une application éducative innovante conçue pour fournir des réponses pertinentes et contextualisées aux étudiants de l’ENSET. Ce projet s’appuie sur une architecture RAG (Retrieval-Augmented Generation), combinant un modèle pré-entraîné (Gemini) avec des données documentaires enrichies issues de la base de connaissances pédagogique de l’ENSET. L’application prend également en charge des fonctionnalités multimodales, permettant des interactions via texte, documents et images.
 
-**Skills**
-- Frontend : JavaFX friendly GUI 
-- Backend (Flask or FastAPI): Interactions with the chatbot.
-- Database (MySQL/PostgreSQL): Ressources storage.
-- Search Engine (FAISS): Fast and accurate search for relevant documents.
-- Multimodal Engine (CLIP / Gemini Vision): Analysis and processing of image-based queries.
+**Outils**
+- Frontend : JavaFX pour GUI 
+- Backend (FastAPI): Intéeraction avec la partie frontend.
+- Base de données (MySQL/PostgreSQL):  Stockage des ressouces.
+- Moteur de recherche (FAISS): Recherche rapide et précise de documents pertinents.
+-Moteur multimodal (CLIP / Gemini Version): Analyse et traitement des requêtes basées sur des images
+
 
 ## [*Learning-platform-nosql*](https://github.com/Believer2001/learning-platform-nosql)
 
 **Description**
 
-This project is   a create of  small API to serve as the backend for an online learning platform. We are using the Node.js framework for the backend with the Express library. Our backend application will handle communication with a MongoDB database to provide responses to requests. To improve the speed and fluidity of the application, we've implemented a caching mechanism managed by Redis.
+Ce projet consiste en la création d’une petite API destinée à servir de backend pour une plateforme d’apprentissage en ligne. Nous utilisons le framework Node.js pour le backend, avec la bibliothèque Express. Notre application backend gère la communication avec une base de données MongoDB afin de fournir des réponses aux requêtes. Pour améliorer la rapidité et la fluidité de l’application, nous avons mis en place un mécanisme de mise en cache géré par Redis.
 
-**Skills**
-- MongoDB and Redis
-- Cache Management
-- Bakend  management (Node.js ,express and Javascript)
+**Outils**
+- MongoDB et Redis
+- Gestions des Caches
+- Bakend  (Node.js ,express and Javascript)
   
 
 ## [*Bash Scriting : WIFI Management*](https://github.com/Believer2001/Bash_Script_WIFI_Management.git)
 
 **Description**
-
-This project aims to address the challenges of efficient network connection management, particularly Wi-Fi, on Unix/Linux systems. The script provides a user-friendly interface to list available networks, connect to a specific Network, and save/restore network configurations. It also enhances security by prompting for passwords when connecting to secure networks it ensures system reliability and robustness by effectively managing errors and exceptions in various usage scenarios.
-
-**Skills**
+**Outils**
 - Web Scrapping with (Beautifulsoup, Selenium)
 - bash scipting
 - Linux command
 
 ## [*School Management System*](https://github.com/Believer2001/SchoolmanagementSystem)
 
-![School management System](./assets/img/gestionscolarite.png)
+**Outils**
 
-**Description**
-
-The school management System project is an academic project that allows for the management of a school for better satisfaction. The System enables registration and tracking of various activities of the establishment, including enrollment, courses, and student evaluations, which are stored in a database. This project highlights frontend skills and provides an understanding of backend functionality, including SQL queries and PHP. 
-
-**Skills**
-
-- Relationnal Database Modeling (UML)
-- SQL query Language and MySQL RDMS
-- PHP for the backend.
-- Frontend basics technologies (HTML,CSS, Javascript, Bootstraap)
+- Conception de la base de données(UML)
+- SQL pour 'interactions avec le SGBD MySQL
+- PHP pour le  backend.
+- Frontend avec les  technologies basique (HTML,CSS, Javascript, Bootstraap)
   
 
 ## [*Tetris Gaming*](https://github.com/Believer2001/Tetrise-Project)
-![Tetris Gaming Interface](./assets/img/tetris.png)
 
-**Description**
+**Outils**
 
-The Tretis project is an educational video game project that applies knowledge of data structures, particularly linked lists, in C++ with an object-oriented paradigm.The game has been developed in console mode and features a graphical interface using the SDL library in C.
+- Structures de données (listes chaînées, files, piles, fichiers)
 
-**Skills**
+- Programmation en C++
 
-- Data Structure(Linked lists,queue,Stack,File)
-- C++ Programming
-- Object-oriented paradigm
-- SDL Library for the GUI
+- Paradigme orienté objet
+
+- Bibliothèque SDL pour le développement d’interfaces graphiques
 
 ##  [*Snoopy Gaming*](https://github.com/Believer2001/snoopy)
-![snopy interface ](./assets/img/snopy.png)
 
-**Description**
+**Outils**
 
-The Snopy video game project is video game project developed solely in Command Line interface mode using the C language. It features the main character Snopy, who attempts to rescue hostages in real-time while also facing obstacles throughout the journey
+  - Programmation C avancée et bonnes pratiques
 
-**Skills**
-
-- Advanced C  programing and Best Patices
-- Algorithmiic 
+  - Algorithmique et résolution de problèmes
 
 

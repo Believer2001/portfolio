@@ -1,6 +1,9 @@
+<div align="justify">
 # Apprenti ingénieur en cybersécurité et sciences  des données à lʼENSIBS
+</div>
 
-## About
+## About:
+
 <div align="justify">
 Dynamique, curieux et rigoureux, je poursuis un double diplôme en cybersécurité et sciences des données. Je suis à la recherche d’une alternance pour relever des défis concrets et contribuer à des projets innovants, tout en me perfectionnant continuellement.
 </div>
